@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+nav img{
+    width: 5vw;
+   
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;  
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30vw;
+}
+.button{
+display: flex;
+flex-direction: row;
+list-style: none;
+
+}
+
+.container-verde-1{background-color: #1e3932;
+    width: 68dvw;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-verde-1 img{
+    width: 36vw;
+    height: auto;
+}
+   p{text-align: center;
+    color: white;}
+    
+    h1{font-weight: 700;
+    font-style: bold;
+    text-align: center;}
+
+    .container-azul{background-color: #0044b4;
+        width: 68dvw;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .container-azul img{
+        width: 36vw;
+        height: auto;
+    }
+
+    .container-rojo{background-color: #d50032;;
+        width: 68dvw;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-rojo img{
+        width: 36vw;
+        height: auto;
+    }
+
+    .container-verde-2{background-color: #1e3932;
+        width: 68dvw;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-verde-2 img{
+        width: 36vw;
+        height: auto;
+    }
+
+    .container-cereza{background-color: #d50032;
+        width: 68dvw;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-cereza img{
+        width: 36vw;
+        height: auto;
+    }
