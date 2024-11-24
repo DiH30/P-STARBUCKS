@@ -14,6 +14,7 @@ body{
 
 nav img{
     width: 5vw;
+    
     }
 
 .navbar{
@@ -34,20 +35,33 @@ nav img{
         flex-direction: row;
         list-style: none;
         margin: 0;
-        padding: 0;}
+        padding: 0;
+    }
 
-        .navbar-left a{color: black;
+    .navbar-left a{color: black;
             text-decoration: none;
-            margin: 8px;}
+            margin: 8px;
+        }
     
+    .navbar-left a:hover{
+        color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
+    }
     
     .navbar-right ul{
     display: flex;
     flex-direction: row;
     list-style: none;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    
+}
 
+.texto-link{
+    color: #000000;
+}
+.texto-link:hover{
+color: gray;
+}
     .navbar-right a{color: #000000;
     text-decoration: none;
     margin: 8px;}
@@ -59,8 +73,6 @@ nav img{
      }
     
 input{display: flex;
-    background-color: white; /*Color de fondo del botón*/
-    color: black; /*Color de texto del botón*/
     justify-content: center;
     align-items: center;
     border: 1px solid black;
@@ -76,7 +88,16 @@ input{display: flex;
     color: #FFFFFF;  /*Letras blancas*/
 
 }
-
+.input-black:hover{
+    background-color: #333;
+}
+.input-white{
+    background-color: white; /*Color de fondo del botón*/
+    color: black; /*Color de texto del botón*/
+}
+.input-white:hover{
+    color: gray;
+}
 .container-verde-1{background-color: #1e3932;
     width: 80vw;
     height: auto;
@@ -202,7 +223,18 @@ input{display: flex;
     font-size: 19px;
     padding: 2%;
 }
+.container-vertical-pink button{
+    background-color: transparent;
+    color:#dc3545;
+    padding: 10px 15px;
+    border: 1px solid #dc3545;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-weight: 700;
 
+}
 .container-vertical-blue{background-color: #81b7f1;;
 width: 38vw;
 height: auto;
@@ -227,7 +259,18 @@ text-align: center;
 font-size: 19px;
 padding: 2%;
 }
+.container-vertical-blue button{
+    background-color: transparent;
+    color: #6c757d;
+    padding: 10px 15px;
+    border: 1px solid  #6c757d;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-weight: 700;
 
+}
 .footer-links-menu{
     display: flex;
     flex-direction: column;
@@ -245,15 +288,18 @@ list-style: none;
 }
 .footer-links-menu a{
     text-align: justify;
+    
+    
 
 }
 .footer-links-menu2 a{
     text-align: justify;
-    margin-right: 550px;
+    margin-right: 580px;
 
 }
 .footer-links-menu2 ul{
     list-style: none;
+    
     
 }
 
@@ -279,9 +325,18 @@ list-style: none;
     font-size: 15px;
     margin-top: 30px;
 }
-.footer h2{
+.footer-links-menu h2{
     color: #000000; 
-    text-align:justify;  
+    text-align:center;
+    margin: 25px;
+    font-size: 22px;
+    
+  
+}
+.footer-links-menu2 h2{
+    color: #000000; 
+    margin: 25px;
+    font-size: 22px;
 }
 .footer-row{
 display: flex;
