@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav img{
+    width: 5vw;
+    
+    }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px; /*Tamaño de la fuente del texto*/
+    font-weight: 700;
+    margin-bottom: 30px; /*Establece un margen inferior de 30 pixeles*/
+} 
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 45vw;/*Margen derecho viewport width*/
+    align-items: center;
+    }
+    .navbar-left ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-left a{color: black;
+            text-decoration: none;
+            margin: 8px;
+        }
+    
+    .navbar-left a:hover{
+        color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
+    }
+    
+    .navbar-right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.navbar-right i{
+    padding-right: 5px; 
+    font-size: 20px; /*Aumenta el tamaño de fuente del icono a 20px*/
+}
+
+.texto-link{
+    color: #000000;
+    
+}
+.texto-link:hover{
+color: gray;
+}
+    .navbar-right a{color: #000000;
+    text-decoration: none;
+    margin: 8px;}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     }
+    
+input{display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px; /*Tamaño del botón*/
+    border-radius: 20px; /*Forma de las esquinas del botón*/
+    text-decoration: none;
+    flex-direction: row;
+    font-weight: 700;
+    margin-left: 10px;
+    cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+    }
+.input-black {background-color: #000000; /*Fondo oscuro*/
+    color: #FFFFFF;  /*Letras blancas*/
+
+}
+.input-black:hover{
+    background-color: #333;
+}
+.input-white{
+    background-color: white; /*Color de fondo del botón*/
+    color: black; /*Color de texto del botón*/
+}
+.input-white:hover{
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container-left {background-color: #156350;
+    width: 50%;
+    display: block;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+   
+    }
+.container-left img{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.container-left--text button{padding: 8px;
+    border: 1px solid white;
+    border-radius: 20px; /*Forma de las esquinas del botón*/
+    text-decoration: none;
+    flex-direction: row;
+    font-weight: 700;
+    margin: 30px;
+    cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+
+}
+.container-right{
+display: flex;
+flex-direction: column;
+background-color: white;
+width: 50%;
+}
+.container-right h1 {margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.container-right-element{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    }
+
+.container-right img{
+    grid-row: 1;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    
+
+}
+.container-right p{
+    grid-row: 2;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 400;
+    text-align: center;
+}

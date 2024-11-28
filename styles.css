@@ -22,7 +22,8 @@ nav img{
     flex-direction: row;
     font-size: 16px; /*Tamaño de la fuente del texto*/
     font-weight: 700;
-    margin-bottom: 30px;} /*Establece un margen inferior de 30 pixeles*/
+    margin-bottom: 30px; /*Establece un margen inferior de 30 pixeles*/
+} 
 
 .navbar-left{
     display: flex;
@@ -53,12 +54,10 @@ nav img{
     list-style: none;
     margin: 0;
     padding: 0;
-    
-    
-}
+    }
 .navbar-right i{
-    padding-right: 5px;
-    font-size: 20px;
+    padding-right: 5px; 
+    font-size: 20px; /*Aumenta el tamaño de fuente del icono a 20px*/
 }
 
 .texto-link{
@@ -250,7 +249,7 @@ input{display: flex;
     
 
 }
-.container-vertical-blue{background-color: #81b7f1;;
+.container-vertical-blue{background-color: #81b7f1;
 width: 38vw;
 height: auto;
 grid-column: 2/2;
