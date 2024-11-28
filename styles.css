@@ -54,10 +54,16 @@ nav img{
     margin: 0;
     padding: 0;
     
+    
+}
+.navbar-right i{
+    padding-right: 5px;
+    font-size: 20px;
 }
 
 .texto-link{
     color: #000000;
+    
 }
 .texto-link:hover{
 color: gray;
@@ -115,18 +121,24 @@ input{display: flex;
 }
    p{text-align: center;
     color: white;
-    padding: 5%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
     font-size: 19px;
 }
 .Texto2{text-align: center;
     color: white;
-    padding: 2%;
+    padding-left: 30px;
     font-size: 19px;
+    padding-top: 0;
 }
     
     h1{font-weight: 700;
     font-style: bold;
-    text-align: center;}
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+}
 
     .container-azul{background-color: #0044b4;
         width: 80vw;
@@ -200,6 +212,7 @@ input{display: flex;
         justify-items: center;
         place-items: center;
         margin-bottom: 30px;
+        justify-content: center;
     }
     .container-vertical-pink{background-color: #f4acce;
     width: 38vw;
@@ -209,6 +222,7 @@ input{display: flex;
     grid-row: 1/2;
     align-items: center;
     flex-direction: column;
+    
     
     
 }
@@ -229,10 +243,11 @@ input{display: flex;
     padding: 10px 15px;
     border: 1px solid #dc3545;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer; /*Cambia el cursor a una mano cuando se pasa sobre el botón*/
     margin-left: 200px;
     margin-bottom: 20px;
     font-weight: 700;
+    
 
 }
 .container-vertical-blue{background-color: #81b7f1;;
@@ -242,7 +257,7 @@ grid-column: 2/2;
 grid-row: 1/2;
 align-items: center;
 flex-direction: column;
-margin-left: 15px;
+margin-left: 25px;
 
 }
 .container-vertical-blue img{
@@ -306,7 +321,7 @@ list-style: none;
 .sociaal-links{
     display: flex;
     margin-top: 50px;
-    margin-left: 370px;
+    justify-content: center;
     }
 .sociaal-links a{
     color: #000000;
