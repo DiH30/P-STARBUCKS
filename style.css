@@ -5,9 +5,6 @@ body{
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
-
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
@@ -16,7 +13,12 @@ nav img{
     width: 5vw;
     
     }
-
+header{
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -107,23 +109,38 @@ input{display: flex;
 .container{
     display: flex;
     flex-direction: row;
+    margin-top: 90px;
+    height: calc(100vh-50px);
 }
-.container-left {background-color: #156350;
-    width: 50%;
-    display: block;
-    margin-right: 30px;
+.left-container {
+    
+    background: linear-gradient(0deg, rgb(29,57,50) 0%, rgb(10,105,75) 100%);
+    flex: 1;
+    position: fixed;
+    top: 0;
+
+    width: 40vw;
+    height: 100vh;
+
+    
+    margin: 0;
+    padding: 50px;
+
     text-align: center;
     color: white;
     font-size: 30px;
    
     }
-.container-left img{
+.left-container img{
     width: 100%;
     height: auto;
     
     
+       
 }
-.container-left--text button{padding: 8px;
+.left-container--text button {
+    
+    padding: 8px;
     border: 1px solid white;
     border-radius: 20px; /*Forma de las esquinas del botón*/
     text-decoration: none;
@@ -133,20 +150,24 @@ input{display: flex;
     cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
 
 }
-.container-right{
-display: flex;
-flex-direction: column;
-background-color: white;
-width: 50%;
+.right-container {
+
+width: 50vw;
+margin-left: 50vw;
+width: calc(100vw - 25vw); /*Ocupa el espacio restante*/
+overflow-y: auto; /*Habilita el scroll vertical*/
+
 }
-.container-right h1 {margin-bottom: 20px;
+.right-container h1 {
+    
+    margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
     padding: 30px;
     margin: 20px;
     
 }
-.container-right-element{
+.right-container-element{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
@@ -157,7 +178,7 @@ width: 50%;
     
     }
 
-.container-right img{
+.right-container img{
     grid-row: 1;
     margin: 0 auto;
     width: 100px;
@@ -165,7 +186,7 @@ width: 50%;
     
 
 }
-.container-right p{
+.right-container p{
     grid-row: 2;
     font-size: 15px;
     margin-left: 5px;
