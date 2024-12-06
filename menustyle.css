@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+nav img{
+    width: 5vw;
+    
+    }
+header{
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px; /*Tamaño de la fuente del texto*/
+    font-weight: 700;
+    margin-bottom: 30px; /*Establece un margen inferior de 30 pixeles*/
+} 
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 45vw;/*Margen derecho viewport width*/
+    align-items: center;
+    }
+    .navbar-left ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-left a{color: black;
+            text-decoration: none;
+            margin: 8px;
+        }
+    
+    .navbar-left a:hover{
+        color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
+    }
+    
+    .navbar-right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.navbar-right i{
+    padding-right: 5px; 
+    font-size: 20px; /*Aumenta el tamaño de fuente del icono a 20px*/
+}
+
+.texto-link{
+    color: #000000;
+    
+}
+.texto-link:hover{
+color: gray;
+}
+    .navbar-right a{color: #000000;
+    text-decoration: none;
+    margin: 8px;}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     }
+    
+input{display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px; /*Tamaño del botón*/
+    border-radius: 20px; /*Forma de las esquinas del botón*/
+    text-decoration: none;
+    flex-direction: row;
+    font-weight: 700;
+    margin-left: 10px;
+    cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+    }
+.input-black {background-color: #000000; /*Fondo oscuro*/
+    color: #FFFFFF;  /*Letras blancas*/
+
+}
+.input-black:hover{
+    background-color: #333;
+}
+.input-white{
+    background-color: white; /*Color de fondo del botón*/
+    color: black; /*Color de texto del botón*/
+}
+.input-white:hover{
+    color: gray;
+}
+.container-menu{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    max-width: 100%;
+    height: calc(100vh -50px);
+    padding: 20px;
+
+}
+.container-menu h2{
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.container-menu h1{
+    font-size: 30px;
+    width: 50vw;
+    padding: 0;
+}
+.container-menu--bebidas---element1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+}
+.container-menu--bebidas---element2{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    text-align: center;
+    margin-left: 50px;
+    
+}   
+.container-menu--bebidas---element2 img{
+    padding-right: 23vw;
+   
+}
+.container-menu--bebidas---element2 p{
+    text-align: center;
+    padding-right: 23vw;
+}
+
+    
+
+
+
+
+
+
+
+
+.footer-links-barra-inferior{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    margin: 0 auto;
+    
+    
+}
+.footer{
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17vw;
+}
+.footer-row{display: flex;
+    flex-wrap: nowrap;
+    word-wrap: break-word;
+    text-align: justify;  
+    background-color: white;
+    width: 100%;
+    height: auto;
+    
+    }
+.footer-links ul{
+list-style: none;
+
+}
+.footer-links-menu2 ul{
+list-style: none;
+    
+    
+}
+.footer-links li, .footer-links-menu2 li{
+    margin-bottom: 5px;
+}
+
+.footer-row h2{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 10px;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+
+}
+.footer-links, .footer-links-menu2{
+    width: 18%;
+    height: auto;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.footer-links a, .footer-links-menu2 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+   
+}
+.sociaal-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sociaal-links a{
+    color: #000000;
+    transition: color 0.2s;
+    margin: 13px; /*Margen entre iconos */
+    text-align: center; /*Centra los iconos horizontalmente*/
+    font-size: 20px; /*Aumenta el tamaño de los iconos */   
+}
+
+.sociaal-links a:hover{
+    color: #13131383;
+}
+.footer p{
+
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    white-space: nowrap;
+    
+}
+.footer-links-barra-inferior ul{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+text-align: center;
+padding: 0;
+margin-bottom: 20px;
+margin-top: 0;
+}
+
+.menu-barra a{
+
+    color: gray;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+   
+    }
+.menu-barra a:hover{
+color: #000000;
+}
+.Derechos-reservados p{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
