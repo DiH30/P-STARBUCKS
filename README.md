@@ -7,7 +7,7 @@
 - Cuenta con enlaces para dirigir a otras páginas.
 - Empleo de código semántico.
 - Incorporación de imágenes.
-- División a base de secciones.
+- División empleando secciones.
 - Se añadieron links para dirigir a redes sociales con sus respectivos iconos.
 - Incluye un archivo README.md, el cuál describe brevemente el proyecto.
 - Publicación de la página web en línea utilizando GitHub Pages.
@@ -20,18 +20,12 @@
 - Fácil alineación vertical y horizontal
 - Responsividad
 
-  ## Proyecto 4: Elaboración de la página Rewards de Starbucks, mediante el uso de FLEXBOX, adjunto el Código empleado.
+  ## Proyecto 5: Elaboración de la página Menu de Starbucks, usando FLEXBOX para la alineación de elementos, adjunto parte del Código empleado.
 
-![Vista Previa](https://i.postimg.cc/fRrQxknQ/C-1-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/hPJFbTg4/C-2-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/TYckbP52/C-3-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/wj7hBxhG/C-4-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/LX64H5Pq/C-5-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/GhbWVVk2/C-6-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/D0N1rthg/C-7-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/mD5PJCnZ/C-8-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/YqwFHf9j/C-9-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/fbhTPZfP/C-10-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/138Jd13D/C-11-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/7L6Dd6Tm/C-12-PROY4.jpg)
-![Vista Previa](https://i.postimg.cc/G2mBMdcC/C-13-PROY4.jpg)
+![Vista Previa](https://i.ibb.co/5rwY1HK/C-1-PROY5.jpg)
+![Vista Previa](https://i.ibb.co/L9qz2NJ/C-2-PROY5.jpg)
+![Vista Previa](https://i.ibb.co/T1W3PJz/C-3-PROY5.jpg)
+![Vista Previa](https://i.ibb.co/TgDxtQj/C-4-PROY5.jpg)
+![Vista Previa](https://i.ibb.co/bPCc5QY/C-5-PROY5.jpg)
+![Vista Previa](https://i.ibb.co/gFnwffK/C-6-PROY5.jpg)
+
