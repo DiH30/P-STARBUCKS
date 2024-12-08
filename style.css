@@ -707,11 +707,12 @@ list-style: none;
 }
 .footer-links, .footer-links-menu2{
     width: 35%;
-    margin-bottom: 5px;
+    margin: 0;
 }
 .footer-links a, .footer-links-menu2 a{
     text-decoration: none;
     color: black;
+    padding: 0;
 }
 .sociaal-links{
     display: flex;
@@ -759,7 +760,9 @@ color: #000000;}
 
 .Derechos-reservados p{
     text-align: center;
-    padding: 2px;
+    padding: 1px;
+    color: gray;
+    font-size: 13px;
 }
 
 
