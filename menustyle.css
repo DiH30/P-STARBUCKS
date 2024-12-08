@@ -129,44 +129,78 @@ input{display: flex;
 .container-menu--bebidas---element1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     margin: 50px;
 }
 .container-menu--bebidas---element2{
     display: flex;
     flex-direction: row;
-    justify-content: justify;
+    justify-content: space-evenly;
     text-align: center;
-    margin-left: 50px;
-    
+    padding-right: 28vw;      
 }   
-.container-menu--bebidas---element2 img{
-    padding-right: 23vw;
-   
-}
 .container-menu--bebidas---element2 p{
     text-align: center;
-    padding-right: 23vw;
-}
-
     
+}
+.container-menu--bebidas---element2-imgen img{
+    margin-right: 50px;
 
-
-
-
-
-
-
+}
+.container-menu--bebidas---element2-imgen p{
+    padding-right: 45px;
+}     
+.container-menu img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    transition: border 0,3s ease; /*Para una transición suave*/
+    background-color: #d5b919;
+}
+.container-menu img:hover{
+    border: 5px solid #1e3932;
+}
+.container-menu p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container-menu--alimentos--element{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    text-align: center;
+    padding: 20px;
+}
+.container-menu--alimentos--element img{
+    margin-left: 7vw;
+}
+.container-menu--alimentos--element p{
+    margin-left: 7vw; 
+}
+.container-menu--Café-en-grano {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    text-align: center;
+    padding: 20px;
+}
+.container-menu--Café-en-grano img{
+   margin-top: 18vh;
+   margin-left: 15px;
+   
+}
 
 .footer-links-barra-inferior{
     position: fixed;
     background-color: white;
     bottom: 0;
     margin: 0 auto;
-    
-    
+    width: 100%; 
+    height: auto;  
 }
+
+
 .footer{
 
     width: 100%;
@@ -177,7 +211,8 @@ input{display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 17vw;
+    margin-top: 20px;
+    margin-bottom: 25vh;
 }
 .footer-row{display: flex;
     flex-wrap: nowrap;
@@ -228,7 +263,8 @@ list-style: none;
 .sociaal-links{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 5px;
+    
 }
 .sociaal-links a{
     color: #000000;
@@ -254,8 +290,9 @@ display: flex;
 flex-direction: row;
 list-style-type: none;
 text-align: center;
+justify-content: center;
 padding: 0;
-margin-bottom: 20px;
+margin-bottom: 10px;
 margin-top: 0;
 }
 
@@ -273,8 +310,7 @@ margin-top: 0;
 color: #000000;
 }
 .Derechos-reservados p{
-
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
