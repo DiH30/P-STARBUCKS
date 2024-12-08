@@ -200,7 +200,7 @@ background-color: white;
     margin-left: 0;
     margin-top: 60px;
 
-    font-weight: normal;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: normal;
     background-color: white;
@@ -542,15 +542,17 @@ background-color: white;
     height: auto;
     width: 40vw;
     margin: 0 auto;
+    padding: 30px;
 }
 .right-container-element-7 img{
-    width: 20vw;
+    width: 15vw;
     height: auto;  
 }
 .right-container-element-7 h3{
     text-align: center;
     width: 40vw;
     margin: 0 auto;
+    padding: 10px;
 }
 .imagen--container-element-7{
     display: flex;
@@ -558,7 +560,7 @@ background-color: white;
     justify-content: center;
 }
 .recompensas img{ 
-    width: 20vw;
+    width: 17vw;
     height: auto;
     padding: 15px;
     
@@ -630,41 +632,42 @@ background-color: white;
     display: block;
     align-items: center;
 
-    padding: 0;
+    padding-top: 40px;
     margin-top: 0;
     margin-right: 27%;
 
     width: 50vw;
     height: auto;
-    background-color: rgb(241, 240, 235);
+    background-color: white;
     
 }
 .right-container-element-9 img{
-    width: 25vw;
-    height: auto;
+    width: 50vw;
+    height: 50vh;
     filter:saturate(170%);
 }
 
 .footer-links-barra-inferior{
-
     position: fixed;
     background-color: white;
     bottom: 0;
     text-align: center;
     margin-right: 27%;
     width:50vw;
-    height: 42px;
-    padding: 8px;   
+    height: 25vh;
+    padding: 0;   
 }
 .footer{
     width: 50vw;
     height: auto;
     margin-right: 27%;
+    
 }
 .container{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+
 }
 .footer-row{
 
@@ -674,7 +677,8 @@ background-color: white;
     text-align: justify;  
     background-color: white;
     width: 50vw;
-    height: auto;
+    height: 60vh;
+    padding: 20px;
     
     }
 .footer-links ul{
@@ -694,7 +698,8 @@ list-style: none;
     display: flex;
     flex-direction: row;
     text-align: justify;
-
+    font-weight: 500;
+    font-size: 20px;
     margin-bottom: 10px;
     padding-left: 33px;
     background-color: white;
@@ -711,7 +716,7 @@ list-style: none;
 .sociaal-links{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding: 0;
 }
 .sociaal-links a{
     color: #000000;
@@ -737,10 +742,10 @@ display: flex;
 flex-direction: row;
 list-style-type: none;
 text-align: center;
-margin-top: 10px;
-padding: 0;
-
-}
+justify-content: space-around;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 0;}
 
 .menu-barra a{
 
@@ -748,16 +753,13 @@ padding: 0;
     text-align: center;
     margin-right: 20px;
     list-style: none;
-    text-decoration: none;
-   
-    }
+    text-decoration: none;}
 .menu-barra a:hover{
-color: #000000;
-}
-.Derechos-reservados p{
+color: #000000;}
 
+.Derechos-reservados p{
     text-align: center;
-    padding-bottom: 50px;
+    padding: 2px;
 }
 
 

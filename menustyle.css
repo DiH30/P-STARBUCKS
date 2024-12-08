@@ -214,7 +214,9 @@ input{display: flex;
     margin-top: 20px;
     margin-bottom: 25vh;
 }
-.footer-row{display: flex;
+.footer-row{
+    
+    display: flex;
     flex-wrap: nowrap;
     word-wrap: break-word;
     text-align: justify;  
@@ -242,8 +244,11 @@ list-style: none;
     width: 100%;
     height: auto;
 
+    font-weight: 500;
+    font-size: 20px;
     margin-bottom: 10px;
     margin-left: 15%;
+
     padding: 10px;
     background-color: white;
 
