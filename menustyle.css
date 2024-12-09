@@ -337,8 +337,8 @@ color: #000000;
         display: flex;
         flex-direction: column;
         width: 100vw;
-        padding-top: 10px;
     }
+
 .navbar-left, .navbar-right {
         margin-right: 0;
         margin-left: 0;
@@ -376,18 +376,24 @@ padding-right: 30px;
         margin-bottom: 20px; 
         padding-left: 30px;
     }
-
+    
     .footer-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .footer-links,
+    .footer-links, 
     .footer-links-menu2 {
         width: 100%;
-        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .sociaal-links {
+        flex-direction: row;
+        align-items: center;
     }
 }
+
 
 @media (max-width: 480px) {
     .navbar {
@@ -421,7 +427,7 @@ padding-right: 30px;
     .footer-links,
     .footer-links-menu2 {
         width: 100%;
-        text-align: center;
+        margin-bottom: 5px;
     }
     .sociaal-links a {
         font-size: 16px;
