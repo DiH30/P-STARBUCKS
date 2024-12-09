@@ -215,63 +215,61 @@ input{display: flex;
 
     .Vertical-container{
         width: 80vw;
-        height: 500px;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        justify-items: center;
-        margin-bottom: 30px;}
+        align-items: stretch;
+        width: 80vw; 
+        margin: 0 auto; /* Centra el contenedor en la pantalla */
+    
+    }
 
     .container-vertical-pink{
     background-color: #f4acce;
-    display: inline-block;
-    width: 40vw;
-    height: auto;
-    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; /* contenido bien distribuido */
     align-items: center;
-    position: relative;   
+    width: 40vw;
+    min-height: 300px; 
+    margin-right: 30px;
+    padding-bottom: 20px;
 }
+
 .container-vertical-pink img{
     width: 100%;
     height: auto;   
 }
-.container-vertical-pink--Text p{
-    position: absolute;
-    bottom: 60px;
-    left: 20px;
-    right: 20px;
-    text-align: center;
-    line-height:1.5;
-    
+.container-vertical-pink--Text p{ 
     color:#dc3545;
     text-align: center;
     font-size: 19px;
-    font-weight: 500;
-    
+    font-weight: 500; 
+    padding: 10px;  
 }
 .container-vertical-pink button{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    background-color: transparent;
     color:#dc3545;
     padding: 10px 15px;
     border: 1px solid #dc3545;
     border-radius: 20px;
     cursor: pointer; /*Cambia el cursor a una mano cuando se pasa sobre el botón*/
-    font-weight: 700;
+    font-weight: 700; 
+    background-color: transparent;
+    margin-top: 10px; /* Asegura un pequeño espacio entre el texto y el botón */
 }
 .container-vertical-blue{
 background-color: #81b7f1;
+min-height: 300px; 
 width: 40vw;
-height: auto;
-position: relative; 
-display: inline-block;
 align-items: center;
-margin-left: 25px;
-
+text-align: center;
+display: flex;
+flex-direction: column; 
+justify-content: space-between; 
+margin: 0 auto;
+padding-bottom: 20px;
 }
 .container-vertical-blue img{
 width: 100%;
@@ -280,24 +278,15 @@ box-sizing: border-box;
 }
 
 .container-vertical-blue--Text p{
-position: absolute;
-bottom: 60px;
-left: 20px;
-right: 20px;
 text-align: center;
+font-size: 19px;
 font-weight: 500;
-line-height:1.5;
-
-
+text-align: center;
+padding: 10px; 
 color: #6c757d;
 font-size: 19px;
-
 }
 .container-vertical-blue button{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
 
     background-color: transparent;
     color: #6c757d;
@@ -305,7 +294,9 @@ font-size: 19px;
     border: 1px solid  #6c757d;
     border-radius: 20px;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 700; 
+    background-color: transparent;
+    margin-top: 10px; /* Asegura un pequeño espacio entre el texto y el botón */
 }
 
 .footer-links-barra-inferior{
@@ -471,8 +462,6 @@ color: #000000;
 
     .Vertical-container {
         flex-direction: column;
-        height: 500px;
-        margin-top: 30px;
     }
     .container-vertical-pink, .container-vertical-blue {
         width: 80vw;
