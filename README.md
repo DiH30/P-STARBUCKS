@@ -3,7 +3,7 @@
 ## Descripción del proyecto
 
 - Útilización de estructura HTML y comandos CSS.
-- Títulos, utilización de etiquetas h1 y h2, con el fin de organizar la información y diferenciar secciones.
+- Títulos, utilización de etiquetas h1, h2 y h3 con el fin de organizar la información y diferenciar secciones.
 - Cuenta con enlaces para dirigir a otras páginas.
 - Empleo de código semántico.
 - Incorporación de imágenes.
@@ -19,13 +19,28 @@
 - Distribución automática de espacios
 - Fácil alineación vertical y horizontal
 - Responsividad
+- Permite que los elementos de un sitio web se organicen de manera dinámica
+  
+# DISEÑO RESPONSIVO
 
-  ## Proyecto 5: Elaboración de la página Menu de Starbucks, usando FLEXBOX para la alineación de elementos, adjunto parte del Código empleado.
+- Optimizado para adaptarse automáticamente a diferentes tamaños de pantalla.
 
-![Vista Previa](https://i.ibb.co/5rwY1HK/C-1-PROY5.jpg)
-![Vista Previa](https://i.ibb.co/L9qz2NJ/C-2-PROY5.jpg)
-![Vista Previa](https://i.ibb.co/T1W3PJz/C-3-PROY5.jpg)
-![Vista Previa](https://i.ibb.co/TgDxtQj/C-4-PROY5.jpg)
-![Vista Previa](https://i.ibb.co/bPCc5QY/C-5-PROY5.jpg)
-![Vista Previa](https://i.ibb.co/gFnwffK/C-6-PROY5.jpg)
+- Conjunto de prácticas que permite a las páginas web alterar su diseño y apariencia para adaptarse a diferentes anchos de pantalla, resoluciones, etc.
+  
+- Optimiza todo el contenido para ofrecer la mejor experiencia en cada pantalla.
+
+- Mejora la satisfacción del usuario.
+
+  ## Media Queries
+
+  Herramienta técnica utilizada para detectar tamaños de pantalla y adaptar estilos.
+  
+  ## Proyecto 6: Página de Starbucks aplicando diseño responsivo,  adjunto parte del Código empleado.
+
+![Vista Previa](https://i.ibb.co/TrnVt3n/C-1-PROY6.jpg)
+![Vista Previa](https://i.ibb.co/zZR85rD/C-2-PROY6.jpg)
+![Vista Previa](https://i.ibb.co/4d4jwtd/C-3-PROY6.jpg)
+![Vista Previa](https://i.ibb.co/8gVd4Yh/C-4-PROY6.jpg)
+![Vista Previa](https://i.ibb.co/gSMnhzw/C-5-PROY6.jpg)
+
 
