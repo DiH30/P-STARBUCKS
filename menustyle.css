@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 body{
     display: flex;
     flex-direction: column;
@@ -11,8 +12,7 @@ body{
     overflow-x: hidden;
 }
 nav img{
-    width: 5vw;
-    
+    width: 5vw;   
     }
 header{
     position: fixed;
@@ -25,7 +25,7 @@ header{
     flex-direction: row;
     font-size: 16px; /*Tamaño de la fuente del texto*/
     font-weight: 700;
-    margin-bottom: 30px; /*Establece un margen inferior de 30 pixeles*/
+    margin-bottom: 10px; /*Establece un margen inferior de 10 pixeles*/
 } 
 
 .navbar-left{
@@ -34,24 +34,24 @@ header{
     margin-right: 45vw;/*Margen derecho viewport width*/
     align-items: center;
     }
-    .navbar-left ul{
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+.navbar-left ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     }
 
-    .navbar-left a{color: black;
-            text-decoration: none;
-            margin: 8px;
+.navbar-left a{
+    color: black;
+    text-decoration: none;
+    margin: 8px;
         }
-    
-    .navbar-left a:hover{
-        color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
+.navbar-left a:hover{
+     color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
     }
     
-    .navbar-right ul{
+.navbar-right ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -64,13 +64,12 @@ header{
 }
 
 .texto-link{
-    color: #000000;
-    
+    color: #000000;   
 }
 .texto-link:hover{
 color: gray;
 }
-    .navbar-right a{color: #000000;
+.navbar-right a{color: #000000;
     text-decoration: none;
     margin: 8px;}
 
@@ -80,13 +79,16 @@ color: gray;
     align-items: center;
      }
     
-input{display: flex;
+input{
+    display: flex;
     justify-content: center;
     align-items: center;
+
     border: 1px solid black;
     padding: 10px 20px; /*Tamaño del botón*/
     border-radius: 20px; /*Forma de las esquinas del botón*/
     text-decoration: none;
+
     flex-direction: row;
     font-weight: 700;
     margin-left: 10px;
@@ -94,7 +96,6 @@ input{display: flex;
     }
 .input-black {background-color: #000000; /*Fondo oscuro*/
     color: #FFFFFF;  /*Letras blancas*/
-
 }
 .input-black:hover{
     background-color: #333;
@@ -106,25 +107,25 @@ input{display: flex;
 .input-white:hover{
     color: gray;
 }
-.container-menu{
-    
+.container-menu{ 
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 80px;
     max-width: 100%;
     height: calc(100vh -50px);
     padding: 20px;
 
 }
-.container-menu h2{
+.container-menu--titulo-2 h2{
     font-size: 20px;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .container-menu h1{
     font-size: 30px;
     width: 50vw;
     padding: 0;
+    margin-bottom: 5px;
 }
 .container-menu--bebidas---element1{
     display: flex;
@@ -138,18 +139,15 @@ input{display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding-right: 28vw;      
+    padding-right: 28vw;
+          
 }   
-.container-menu--bebidas---element2 p{
-    text-align: center;
-    
-}
 .container-menu--bebidas---element2-imgen img{
     margin-right: 50px;
-
 }
 .container-menu--bebidas---element2-imgen p{
     padding-right: 45px;
+    text-align: center;
 }     
 .container-menu img{
     width: 170px;
@@ -165,31 +163,39 @@ input{display: flex;
     font-size: 20px;
     font-weight: 500;
 }
-.container-menu--alimentos--element{
-    display: flex;
-    flex-direction: row;
-    justify-content: justify;
-    text-align: center;
-    padding: 20px;
-}
-.container-menu--alimentos--element img{
-    margin-left: 7vw;
-}
-.container-menu--alimentos--element p{
-    margin-left: 7vw; 
-}
+
+.container-menu--alimentos,
 .container-menu--Café-en-grano {
     display: flex;
-    flex-direction: row;
-    justify-content: justify;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.menu-item img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    transition: border 0,3s ease; /*Para una transición suave*/
+    background-color: #d5b919;
+
+    margin-right: 58vw;
+}
+.menu-item p {
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
-    padding: 20px;
+    
+    margin-right: 58vw;
 }
-.container-menu--Café-en-grano img{
-   margin-top: 18vh;
-   margin-left: 15px;
-   
-}
+
+/*Footer*/
 
 .footer-links-barra-inferior{
     position: fixed;
@@ -199,7 +205,6 @@ input{display: flex;
     width: 100%; 
     height: auto;  
 }
-
 
 .footer{
 
@@ -320,4 +325,98 @@ color: #000000;
     margin-bottom: 15px;
     color: gray;
     font-size: 13px;
+}
+
+/* Diseño Responsivo */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+    .navbar-left {
+        margin-right: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar-right {
+        flex-direction: row;
+        align-items: center;    
+    }
+    .container-menu {
+        margin-top: 60px;
+    }   
+.container-menu--bebidas---element2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+    .container-menu img {
+        width: 120px;
+        height: 120px;
+    }
+    .container-menu--bebidas---element2-imgen img{
+        margin-right: 20px;
+    }
+
+    .container-menu--alimentos,
+    .container-menu--Café-en-grano {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-bottom: 20px; 
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .footer-links-menu2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        font-size: 14px;
+    }
+    .navbar-left ul,
+    .navbar-right ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-left a,
+    .navbar-right a {
+        margin: 5px;
+    }
+
+    .container-menu h1 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .container-menu img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .footer-links-menu2 {
+        width: 100%;
+        text-align: center;
+    }
+    .sociaal-links a {
+        font-size: 16px;
+    }
 }
