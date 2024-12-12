@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    overflow-x: hidden;
+}
+
+nav img{
+    width: 5vw;   
+    }
+header{
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px; /*Tamaño de la fuente del texto*/
+    font-weight: 700;
+    margin-bottom: 10px; /*Establece un margen inferior de 10 pixeles*/
+} 
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 45vw;/*Margen derecho viewport width*/
+    align-items: center;
+    }
+.navbar-left ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.navbar-left a{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+        }
+.navbar-left a:hover{
+     color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
+    }
+    
+.navbar-right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.navbar-right i{
+    padding-right: 5px; 
+    font-size: 20px; /*Aumenta el tamaño de fuente del icono a 20px*/
+}
+
+.texto-link{
+    color: #000000;   
+}
+.texto-link:hover{
+color: gray;
+}
+.navbar-right a{
+    
+    color: #000000;
+    text-decoration: none;
+    margin: 4px;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     }
+    
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    padding: 10px 20px; /*Tamaño del botón*/
+    border-radius: 20px; /*Forma de las esquinas del botón*/
+    text-decoration: none;
+
+    flex-direction: row;
+    font-weight: 700;
+    margin-left: 5px;
+    cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+    }
+.input-black {
+    background-color: #000000; /*Fondo oscuro*/
+    color: #FFFFFF;  /*Letras blancas*/
+    font-weight: 800;
+}
+.input-black:hover{
+    background-color: #333;
+}
+.input-white{
+    background-color: white; /*Color de fondo del botón*/
+    color: black; /*Color de texto del botón*/
+    font-weight: 800;
+}
+.input-white:hover{
+    background-color: #F7F7F7;
+}
+.container{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+
+    max-width: 100%;
+    height: calc(100vh -50px);
+   
+}
+.left-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10,105,75) 100%);
+    flex: 1;
+    position: fixed;
+    top: 0;
+
+    width: 45vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+     .left-container h1{
+
+        font-weight: 900;
+        color: white;
+        font-size: 32px;
+        justify-items: center;
+        padding: 0;
+    }
+    .left-container--coffee-at-three{
+        width: 100%;
+        height: 70vh;
+        padding: 0;
+        margin: 0;
+
+    }
+    .left-container--coffee-at-three img{
+        width: 100%;
+        height: 70vh;
+        border-bottom: 0;
+        margin: 0;            
+    }
+    
+    .left-container--estrella img{
+       width: 28px;
+       height: auto;
+
+       margin-top: -30px;
+       margin-bottom: 60px;
+       margin-right: 230px;
+    }
+
+
+    .right-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: calc(100vw -25vw); /*Ocupa el espacio restante*/
+        height: auto;
+        background-color: white;
+        overflow-y: auto; /*Habilita el scroll vertical*/
+        overflow-x: hidden;
+
+        margin-left: 42vw;
+        padding: 0;
+        margin-top: 60px;
+        }
+.right-container--formulario{
+    background-color:  rgb(241, 240, 235);
+    width: 100%;
+    height: auto;   
+}
+        #Formulario{
+            
+            width: 300px;
+            height: auto;
+
+            margin: 20px auto;
+            padding: 20px;
+
+        }
+        input[type="email"] , input[type="password"]{
+            margin-top: 10px;
+            background-color: transparent;   
+            padding: 10px;
+            cursor: default;
+            border: 1px solid #008248;
+            border-radius: 35px; /*Forma de las esquinas del botón*/        
+        }
+
+        button{
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background-color: #00a862;
+            border: 1px solid #00a862;
+
+            padding: 15px 25px; /*Tamaño del botón*/
+            border-radius: 25px; /*Forma de las esquinas del botón*/
+            margin-left: 50px;
+            cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+
+        }
+        .right-container--black{
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            width: 100%;;
+            height: auto;
+
+            background-color: #2d2926;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1.6px;
+            text-align: center;
+
+            
+        }
+        .right-container--white{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+            padding: 0;
+
+            width: 100%;
+            height: auto;
+            
+ 
+        }
+        .right-container--white h1{
+
+            color: black;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-align: center; 
+            
+        }
+        .right-container--white p{
+            width: 55%;
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: justify;
+            margin: 0 auto; 
+            padding-bottom: 20px;
+            word-spacing: 0;
+              
+        }
+        .right-container--white--2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+            padding: 0;
+            width: 100%;
+            height: auto; 
+           
+        }
+
+
+        .right-container--white--2 img{
+            width: 20vw;
+            height: auto; 
+            margin-left: 70px;
+            margin-right: 0; 
+            padding: 10px 0;
+
+        }
+        .boton-unete {
+
+            font-size: 18px;
+            font-weight: 700;
+            color: #008248;
+            background-color: white;
+            border: 1px solid #008248;
+            border-radius: 35px; /*Forma de las esquinas del botón*/
+            cursor: pointer; /*Cursor que se muestra cuando se pasa sobre el botón*/
+
+            padding: 15px 25px; /*Tamaño del botón*/
+            margin-left: 10px;           
+        }
+        .boton-unete:hover{
+            background-color: #c3e9ef;
+        }
+
+
+/*Pie de pagina*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+    background-color: white;
+}
+.footer-row{
+
+    display: flex;
+    flex-wrap: nowrap;
+    word-wrap: break-word;
+    text-align: justify;
+    width: 100%;
+    height: 20vh;
+    padding: 0 10px 300px 20px;
+    margin-bottom: 70px;
+      
+    }
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    }
+.footer-links ul, 
+.footer-links-menu2 ul{
+list-style: none; 
+list-style: none;
+
+}
+.footer-links li, 
+.footer-links-menu2 li{
+    margin-bottom: 5px;
+}
+
+.footer-row h2{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 33px;
+}
+
+.footer-links a, 
+.footer-links-menu2 a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+.footer-links-barra-inferior--social-links{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    text-align: center;
+    width:55%;
+    height: auto;
+    margin-left: 38px;
+}
+.sociaal-links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 55vw;
+    height: auto;
+    padding: 0;
+}
+.sociaal-links a{
+    color: #000000;
+    transition: color 0.2s;
+    margin: 13px; /*Margen entre iconos */
+    text-align: center; /*Centra los iconos horizontalmente*/
+    font-size: 20px; /*Aumenta el tamaño de los iconos */   
+}
+
+.sociaal-links a:hover{
+    color: #13131383;
+}
+.footer p{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    white-space: nowrap;
+    
+}
+.footer-links-barra-inferior ul{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 0;
+
+}
+
+.menu-barra a{
+    color: gray;
+    text-align: justify;
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.menu-barra a:hover{
+color: #000000;}
+
+.Derechos-reservados p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1px;
+    color: gray;
+    font-size: 13px;
+}
+/*Diseño responsivo*/
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .left-container{
+        width: 100%;
+        height: 50vh;
+    }
+    .right-container {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .navbar-left, 
+    .navbar-right {
+        margin-right: 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .left-container--coffee-at-three img{
+        width: 100%;
+        height: 35vh;
+    }
+
+    #Formulario-ingreso{
+        width: 40px;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 350px;
+
+    }
+
+    .footer-row{
+        flex-direction: column;
+        padding-bottom: 30px;
+        margin-bottom: 270px;
+    }
+
+    .sociaal-links{
+        width: 100%;
+    }
+
+    .footer-links-barra-inferior--social-links{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+        
+        
