@@ -433,7 +433,7 @@ color: #000000;
 }
 
 /*Diseño responsivo*/
-@media (max-width: 775px) {
+@media (max-width: 769px) {
     .navbar {
         display: flex;
         flex-direction: column;

@@ -154,14 +154,14 @@ input{
     }
     .left-container--coffee-at-three{
         width: 100%;
-        height: 70vh;
+        height: 65vh;
         padding: 0;
         margin: 0;
 
     }
     .left-container--coffee-at-three img{
         width: 100%;
-        height: 70vh;
+        height: 65vh;
         border-bottom: 0;
         margin: 0;            
     }
@@ -239,7 +239,6 @@ input{
     position: absolute;
     top: 60%;
     left: 15px;
-
     font-size: 16px;
     color: #888;
     transform: translateY(-50%);
@@ -249,13 +248,6 @@ input{
     font-weight: bold;
     font-style: italic;
     padding-bottom: 40px;
-}
-/* Hacer que la etiqueta se mueva hacia arriba y desaparezca una vez que el campo tiene texto */
-.input-container input:focus + .input-container label,
-.input-container input:not(:placeholder-shown) +.input-container label{
-    top: -10px;
-    font-size: 12px;
-    opacity: 1;
 }
 
 /* Ocultar la etiqueta cuando el campo tiene texto ingresado */
@@ -495,7 +487,7 @@ color: #000000;}
     font-size: 13px;
 }
 /*Diseño responsivo*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .container{
         flex-direction: column;
         margin-top: 70px;
@@ -525,21 +517,28 @@ color: #000000;}
 
     .left-container--coffee-at-three img{
         width: 100%;
-        height: 35vh;
+        height: 42vh;
     }
 
 .right-container--formulario{
     background-color: rgb(241, 240, 235); /* Mantener el fondo sólido */
-    opacity: 1; /* Asegura que no haya transparencia */
     padding: 15px;
     
 }
-    #formulario{
+  #Formulario-ingreso{
+    margin-top: 170px;
+  }
+#formulario{
         background-color: rgb(241, 240, 235);
         height: auto;
         width: 90%; 
         padding: 15px;
-        opacity: 1; /* Evita que se vuelva transparente */
+    }
+    .input-container {
+        position: static;
+    }
+    .input-container label{
+       display: none;
     }
     .footer-row{
         flex-direction: column;
@@ -557,21 +556,35 @@ color: #000000;}
     }
     
 }
-  /* Responsividad para dispositivos más pequeños, como móviles */
-  @media (max-width: 480px) {
+
+ /* Responsividad para dispositivos más pequeños, como móviles */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
     .left-container h1 {
         font-size: 24px;
     }
-
+    .right-container--white--2 img {
+        width: 40vw;
+    }
+    .sociaal-links a {
+        font-size: 18px;
+    }
+   .footer p {
+        font-size: 14px;
+    }
     .right-container--white p {
         font-size: 16px;
     }
-
     #Formulario {
         width: 80%;
         padding: 15px;
     }
-
+    #Formulario-ingreso{
+        margin-top: 30px;
+      }
     button {
         padding: 12px 20px;
     }
