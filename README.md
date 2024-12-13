@@ -35,7 +35,7 @@
 
   Herramienta técnica utilizada para detectar tamaños de pantalla y adaptar estilos.
   
-  ## Proyecto 7: Elaboración de la página "Ingresar" de Starbucks aplicando diseño responsivo,  adjunto parte del Código empleado.
+  ## Proyecto 7: Elaboración de la página "Ingresar" de Starbucks aplicando diseño responsivo y elaboración de la página "Únete", adjunto parte del Código empleado.
 
 ![Vista Previa](https://i.ibb.co/CVj3LcP/C-1-PROY7.jpg)
 ![Vista Previa](https://i.ibb.co/bXWJmbc/C-2-PROY7.jpg)
