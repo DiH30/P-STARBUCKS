@@ -3,7 +3,7 @@
 ## Descripción del proyecto
 
 - Útilización de estructura HTML y comandos CSS.
-- Títulos, utilización de etiquetas h1, h2 y h3 con el fin de organizar la información y diferenciar secciones.
+- Títulos, utilización de etiquetas h1, h2, h3 y h4 con el fin de organizar la información y diferenciar secciones.
 - Cuenta con enlaces para dirigir a otras páginas.
 - Empleo de código semántico.
 - Incorporación de imágenes.
@@ -35,12 +35,16 @@
 
   Herramienta técnica utilizada para detectar tamaños de pantalla y adaptar estilos.
   
-  ## Proyecto 6: Página de Starbucks aplicando diseño responsivo,  adjunto parte del Código empleado.
+  ## Proyecto 7: Elaboración de la página "Ingresar" de Starbucks aplicando diseño responsivo,  adjunto parte del Código empleado.
 
-![Vista Previa](https://i.ibb.co/TrnVt3n/C-1-PROY6.jpg)
-![Vista Previa](https://i.ibb.co/zZR85rD/C-2-PROY6.jpg)
-![Vista Previa](https://i.ibb.co/4d4jwtd/C-3-PROY6.jpg)
-![Vista Previa](https://i.ibb.co/8gVd4Yh/C-4-PROY6.jpg)
-![Vista Previa](https://i.ibb.co/gSMnhzw/C-5-PROY6.jpg)
+![Vista Previa](https://i.ibb.co/CVj3LcP/C-1-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/bXWJmbc/C-2-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/xXnqrM3/C-3-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/t4cCX0F/C-4-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/8KKPkQ3/C-5-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/0fLnsLk/C-6-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/r2kwXkQ/C-7-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/1qY5zYt/C-8-PROY7.jpg)
+
 
 
