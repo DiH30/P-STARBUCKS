@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks | Inicia Sesión</title>
+    <title>Starbucks | Registro</title>
 
 <!--Vinculando el archivo CSS externo-->
-<link rel="stylesheet" href="ingresarstyle.css">
+<link rel="stylesheet" href="unetestyle.css">
 <!--Agregando logo-->
 <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJr7fUmryXCP9jrp3SDRm1sZRSlle0c13Lfw&s">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -38,45 +38,46 @@
     </navbar>
 </header> 
 <section class="container">
-    <section class="left-container">
-        <section class="left-container--coffee-at-three">
-        <img src="https://coffeeatthree.com/wp-content/uploads/starbucks-holiday-2022-drinks-2.jpg" alt="Coffee at three">
-        </section>  
-        <h1>Ingresa a tu cuenta</h1>
-        <section class="left-container--estrella">
-            <img src="https://www.emojiall.com/en/header-svg/%F0%9F%8C%9F.svg" alt="Estrella">
+    <section class="left-container"> 
+        <h1>Registro</h1>
         </section>
-        </section>
-        <section class="right-container">
+<section class="right-container">
             <!--Formulario-->
 <section class="right-container--formulario">
-
 <section id="Formulario">
     <form id="Formulario-ingreso">
+        <div class="input-container"><h4>Información personal</h4>
+            <p>¡Regístrate y comienza a vivir la experiencia Starbucks Rewards™!</p><br><br></div>
         <div class="input-container">
-            <label for="email">Ingresa tu email</label><br><br>
-            <input type="email" id="email" name="email" placeholder="Ingresa tu email" required><br><br>
+            <label for="name">Nombre(s)</label><br><br>
+            <input type="text" id="nombre(s)" name="nombr(s)" placeholder="Nombre(s)" required><br><br></div>
+
+        <div class="input-container">  
+            <label for="apellido_paterno">Apellido paterno</label><br><br>
+            <input type="text" id="apellido_paterno" name="apellido_paterno" placeholder="Apellido paterno" required><br><br></div>
+
+        <div class="input-container">
+            <label for="email">Email</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
         </div>
         <div class="input-container">
-            <label for="password">Ingresa tu contraseña</label><br><br>
-            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required><br><br>
+            <label for="email">Confirmar Email</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Confirmar Email" required><br><br>
         </div>
 
-        <button type="submit">Iniciar Sesión</button>
+        <div class="input-container">
+            <label for="password">Contraseña</label><br><br>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required><br><br>
+        </div>
+
+<div class="input-container">
+        <label for="password">Confirmar contraseña</label><br><br>
+            <input type="password" id="password" name="password" placeholder="Confirmar contraseña" required><br><br>
+</div>
+        <button type="submit">Registrarme</button>
     </form>
-</section>
-</section>
-<section class="right-container--black">
-    <h1>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL!</h1>
-</section>
 
-<section class="right-container--white">
-    <h1>Únete a Starbucks Rewards</h1>
-    <p>Descarga la aplicación, registrate, obtén estrellas, disfruta de café gratis y algo más.</p>
 </section>
-    <section class="right-container--white--2">
-    <button class="boton-unete">¡Únete ahora!</button>
-    <img src="https://i.postimg.cc/bwwd54R3/chica-sbx.png" alt="joven con movil">
 </section>
 
 <!--Pie de pagina-->
@@ -121,9 +122,7 @@
     </div>
     
 </footer>
-
 </section>
-
 </section>
 </body>
 </html>
