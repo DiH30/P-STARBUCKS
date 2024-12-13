@@ -499,6 +499,7 @@ color: #000000;}
     }
     .right-container {
         width: 100%;
+        height: auto;
         margin-left: 0;
         margin-top: 350px;        
     }
@@ -565,6 +566,10 @@ color: #000000;}
     }
     .left-container h1 {
         font-size: 24px;
+    }
+    .right-container{
+        width: 100%;
+        height: auto;
     }
     .right-container--white--2 img {
         width: 40vw;
