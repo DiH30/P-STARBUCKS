@@ -8,11 +8,9 @@
 body{
     display: flex;
     flex-direction: column;
-
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     width: 100%;
-
     overflow-x: hidden;
 }
 
@@ -39,6 +37,7 @@ header{
     margin-right: 45vw;/*Margen derecho viewport width*/
     align-items: center;
     }
+
 .navbar-left ul{
     display: flex;
     flex-direction: row;
@@ -55,7 +54,13 @@ header{
 .navbar-left a:hover{
      color: #2c6657;/*Cambia el color del texto de un enlace cuando se pasa el cursor sobre él*/
     }
+
+.navbar-right{
     
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+         }   
 .navbar-right ul{
     display: flex;
     flex-direction: row;
@@ -80,12 +85,6 @@ color: gray;
     text-decoration: none;
     margin: 4px;
 }
-
-.navbar-right{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-     }
     
 input{
     display: flex;
@@ -123,7 +122,6 @@ input{
     display: flex;
     flex-direction: row;
     margin-top: 90px;
-
     max-width: 100%;
     height: calc(100vh -50px);
    
@@ -198,7 +196,8 @@ input{
 .right-container--formulario{
     background-color:  rgb(241, 240, 235);
     width: 100%;
-    height: auto;   
+    height: auto;
+      
 }
         #Formulario{
             
@@ -207,17 +206,74 @@ input{
 
             margin: 20px auto;
             padding: 20px;
-
+            background-color: rgb(241, 240, 235);
         }
-        input[type="email"] , input[type="password"]{
-            margin-top: 10px;
-            background-color: transparent;   
-            padding: 10px;
-            cursor: default;
-            border: 1px solid #008248;
-            border-radius: 35px; /*Forma de las esquinas del botón*/        
+       form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
+        .input-container {
+            position: relative;
+            width: 100%;
+        }
+
+/* Estilo del campo de entrada con solo una línea inferior */
+.input-container input {
+    
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.input-container input:focus {
+    border-bottom: 2px solid #4A90E2;
+}
+/* Estilo de la etiqueta dentro del campo */
+.input-container label {
+    position: absolute;
+    top: 60%;
+    left: 15px;
+
+    font-size: 16px;
+    color: #888;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s;
+    opacity: 0.6;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 40px;
+}
+/* Hacer que la etiqueta se mueva hacia arriba y desaparezca una vez que el campo tiene texto */
+.input-container input:focus + .input-container label,
+.input-container input:not(:placeholder-shown) +.input-container label{
+    top: -10px;
+    font-size: 12px;
+    opacity: 1;
+}
+
+/* Ocultar la etiqueta cuando el campo tiene texto ingresado */
+.input-container input:valid + 
+.input-container label{
+    opacity: 0;
+    display: none;
+}
+
+.input-container input:focus,
+.input-container input:not(:placeholder-shown) {
+    border-color: #4A90E2;
+}
+
+ input[type="email"], 
+  input[type="password"]{   
+        cursor: default;     
+        }
         button{
             font-size: 18px;
             font-weight: 600;
@@ -243,9 +299,7 @@ input{
             font-size: 16px;
             font-weight: 700;
             letter-spacing: 1.6px;
-            text-align: center;
-
-            
+            text-align: center;    
         }
         .right-container--white{
             display: flex;
@@ -422,7 +476,6 @@ margin-bottom: 5px;
 padding: 0;
 
 }
-
 .menu-barra a{
     color: gray;
     text-align: justify;
@@ -450,12 +503,12 @@ color: #000000;}
 
     .left-container{
         width: 100%;
-        height: 50vh;
+        height: 55vh;
     }
     .right-container {
         width: 100%;
         margin-left: 0;
-        margin-top: 60px;
+        margin-top: 350px;        
     }
     .navbar {
         display: flex;
@@ -475,14 +528,19 @@ color: #000000;}
         height: 35vh;
     }
 
-    #Formulario-ingreso{
-        width: 40px;
+.right-container--formulario{
+    background-color: rgb(241, 240, 235); /* Mantener el fondo sólido */
+    opacity: 1; /* Asegura que no haya transparencia */
+    padding: 15px;
+    
+}
+    #formulario{
+        background-color: rgb(241, 240, 235);
         height: auto;
-        margin-bottom: 30px;
-        margin-top: 300px;
-
+        width: 90%; 
+        padding: 15px;
+        opacity: 1; /* Evita que se vuelva transparente */
     }
-
     .footer-row{
         flex-direction: column;
         padding-bottom: 30px;
@@ -497,7 +555,32 @@ color: #000000;}
         width: 100%;
         margin-left: 0;
     }
+    
 }
+  /* Responsividad para dispositivos más pequeños, como móviles */
+  @media (max-width: 480px) {
+    .left-container h1 {
+        font-size: 24px;
+    }
 
-        
+    .right-container--white p {
+        font-size: 16px;
+    }
+
+    #Formulario {
+        width: 80%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 12px 20px;
+    }
+}
+/* Media Query para pantallas medianas y grandes */
+@media (min-width: 769px) {
+    #Formulario {
+        width: 300px;
+        margin: 20px auto;
+    }
+}      
         
