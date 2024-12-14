@@ -391,14 +391,7 @@ list-style: none;
 .sociaal-links a:hover{
     color: #13131383;
 }
-.footer p{
 
-    text-align: center;
-    color: #000000;
-    font-size: 15px;
-    white-space: nowrap;
-    
-}
 .footer-links-barra-inferior ul{
 display: flex;
 flex-direction: row;
