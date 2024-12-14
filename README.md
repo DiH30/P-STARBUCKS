@@ -35,16 +35,14 @@
 
   Herramienta técnica utilizada para detectar tamaños de pantalla y adaptar estilos.
   
-  ## Proyecto 7: Elaboración de la página "Ingresar" de Starbucks aplicando diseño responsivo y elaboración de la página "Únete", adjunto parte del Código empleado.
+  ## Proyecto Final: Elaboración de la página Starbucks (Homepage, Menu, Rewards, Ingresar y Únete),  aplicación de diseño responsivo, adjunto parte del Código empleado.
 
-![Vista Previa](https://i.ibb.co/CVj3LcP/C-1-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/bXWJmbc/C-2-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/xXnqrM3/C-3-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/t4cCX0F/C-4-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/8KKPkQ3/C-5-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/0fLnsLk/C-6-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/r2kwXkQ/C-7-PROY7.jpg)
-![Vista Previa](https://i.ibb.co/1qY5zYt/C-8-PROY7.jpg)
+![Vista Previa](https://i.ibb.co/PwxSsDM/C-1-PROY8.jpg)
+![Vista Previa](https://i.ibb.co/wLtv1hC/C-2-PROY8.jpg)
+![Vista Previa](https://i.ibb.co/wwnkyX7/C-3-PROY8.jpg)
+![Vista Previa](https://i.ibb.co/MkXj8d0/C-4-PROY8.jpg)
+![Vista Previa](https://i.ibb.co/mG4WVRT/C-5-PROY8.jpg)
+
 
 
 
