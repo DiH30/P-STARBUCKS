@@ -348,7 +348,7 @@ list-style: none;
     transition: color 0.2s;
     margin: 13px; /*Margen entre iconos */
     text-align: center; /*Centra los iconos horizontalmente*/
-    font-size: 25px; /*Aumenta el tamaño de los iconos */   
+    font-size: 23px; /*Aumenta el tamaño de los iconos */   
 }
 
 .sociaal-links a:hover{

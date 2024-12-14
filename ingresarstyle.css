@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     font-size: 15px;
+
     font-family: "Roboto", sans-serif;
     width: 100%;
     overflow-x: hidden;
@@ -117,14 +118,12 @@ input{
 .input-white:hover{
     background-color: #F7F7F7;
 }
-.container{
-
+.container{    
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
+    margin-top: 10px;
     max-width: 100%;
     height: calc(100vh -50px);
-   
 }
 .left-container {
 
@@ -356,7 +355,6 @@ input{
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
-
     width: 100%;
     height: auto;
     background-color: white;
@@ -374,7 +372,7 @@ input{
     margin-bottom: 30px;
       
     }
-.container{
+.container-footer{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -391,6 +389,10 @@ list-style: none;
 .footer-links-menu2 li{
     margin-bottom: 5px;
 }
+.footer-links, .footer-links-menu2{
+    padding: 0;
+    margin: 0;
+}
 
 .footer-row h2{
     display: flex;
@@ -400,11 +402,11 @@ list-style: none;
     font-size: 20px;
     margin-bottom: 10px;
     padding-left: 33px;
-    margin-left: 7px;
 }
 
 .footer-links a, 
 .footer-links-menu2 a{
+    font-size: 15px;
     text-decoration: none;
     color: black;
     padding: 0;
@@ -431,7 +433,7 @@ list-style: none;
     transition: color 0.2s;
     margin: 13px; /*Margen entre iconos */
     text-align: center; /*Centra los iconos horizontalmente*/
-    font-size: 25px; /*Aumenta el tamaño de los iconos */   
+    font-size: 23px; /*Aumenta el tamaño de los iconos */   
 }
 
 .sociaal-links a:hover{
@@ -454,6 +456,7 @@ padding: 0;
     color: gray;
     list-style: none;
     text-decoration: none;
+    font-size: 15px;
 }
 .menu-barra a:hover{
 color: #000000;}
@@ -468,7 +471,14 @@ color: #000000;}
 }
 
 /*Diseño responsivo*/
-@media (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 15px; 
+      }  
+      .navbar {
+        flex-direction: row; 
+        justify-content: space-around;
+      }
     .container{
         flex-direction: column;
         margin-top: 70px;
@@ -514,7 +524,7 @@ color: #000000;}
         background-color: rgb(241, 240, 235);
         height: auto;
         width: 90%; 
-        padding: 15px;
+        padding: 10px;
     }
     .input-container {
         position: static;
@@ -573,8 +583,21 @@ color: #000000;}
         padding: 12px 20px;
     }
 }
-/* Media Query para pantallas medianas y grandes */
-@media (min-width: 769px) {
+/* Media Queries para Computadoras de Escritorio */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px; /* Fuente más grande para legibilidad en pantallas grandes */
+    
+      }
+    
+      .container {
+    
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+    
+      }
+
     #Formulario {
         width: 300px;
         margin: 20px auto;
